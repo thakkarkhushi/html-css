@@ -2,49 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-  <nav class="navbar">
-    <a href="#s1" target="_self" class="h1">Home</a>
-    <a href="#s2" target="_self" class="h1">About</a>
-    <a href="#s4" target="_self" class="h1">Skills</a>
-    <a href="#s3" target="_self" class="h1">Experience</a>
-    <a href="#s5" target="_self" class="h1">Contact</a>
-</nav>
+    <nav class="navbar">
+        <a href="#s1" class="h1">Home</a>
+        <a href="#s2" class="h1">About</a>
+        <a href="#s4" class="h1">Skills</a>
+        <a href="#s3" class="h1">Experience</a>
+        <a href="#s6" class="h1">Projects</a>
+        <a href="#s5" class="h1">Contact</a>
+    </nav>
+
     <h2 id="s1">Home</h2>
-        Hello I'm <font id="f1"> Khushi </font><br>
-        Cse Student | Diploma Pass out | Data Analyst<br>
-        <br>
-        <button id="b1" onclick="<a href='#s5'>">Contact Me</button>
-<br><br><br><br><br><br>
-    <div>
+    <p class="intro">
+        Hello I'm <span id="f1">Khushi</span><br>
+        Cse Student | Diploma Pass out | Data Analyst
+    </p>
+    <a href="#s5"><button id="b1">Contact Me</button></a>
+
+    <div class="card">
         <h2 id="s2">About</h2>
-        Hello I am Thakkar Khushi,I am 3rd year student Currently pursuing Cse from Gtu, I have completed my Diploma from Government Polytechnic Ahemdaba,I have done internship in ai/ml(45 days),python(15 days) . I want to become Data Analyst. I have basic knowledge of Python And sql.I am looking forward for Opportunity. <br>Thank you
+        <p>
+            Hello I am Thakkar Khushi, I am a 3rd year student currently pursuing CSE from GTU.
+            I have completed my Diploma from Government Polytechnic Ahmedabad. I have done
+            internships in AI/ML (45 days) and Python (15 days). I want to become a Data Analyst.
+            I have basic knowledge of Python and SQL. I am looking forward to opportunities.
+        </p>
+        <p>Thank you</p>
     </div>
-<br><br><br><br><br><br>
-        <h2 id="s4">Experience</h2>
-        <ul>
-            <li>45 days Ai/Ml Internship at Sahana System limited</li>
-            <l1>15 day Python Internship at Brainy Beam</l1>
-        </ul>
-<br><br><br><br><br><br>
-    <div >
-        <h2 id="s3">Skills</h2>
+
+    <div class="card">
+        <h2 id="s4">Skills</h2>
         <ul>
             <li>Python</li>
-            <l1>C++</l1>
+            <li>C++</li>
             <li>C</li>
             <li>Java</li>
-            <l1>Html/css</l1>
+            <li>Html/css</li>
             <li>Sql</li>
         </ul>
     </div>
-<br><br><br><br><br><br>
-        <h2 id="s5">Contact</h2>
-        +91 8401378372<br><br>
-        KhushiTh22@gmail.com<br><br>
-        Ahmedabad, Gujarat, India<br><br>
+
+    <div class="card">
+        <h2 id="s3">Experience</h2>
+        <ul>
+            <li>45 days AI/ML Internship at Sahana System Limited</li>
+            <li>15 days Python Internship at Brainy Beam</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2 id="s6">Projects</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Project Title One</h3>
+                <p>Short description of what this project does and the problem it solves.</p>
+                <p class="tech">Python, SQL</p>
+                <a href="#" target="_blank" rel="noopener">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Title Two</h3>
+                <p>Short description of what this project does and the problem it solves.</p>
+                <p class="tech">Python, Pandas</p>
+                <a href="#" target="_blank" rel="noopener">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Project Title Three</h3>
+                <p>Short description of what this project does and the problem it solves.</p>
+                <p class="tech">SQL, Excel</p>
+                <a href="#" target="_blank" rel="noopener">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="s5">Contact</h2>
+    <p class="contact-info">
+        +91 8401378372<br>
+        KhushiTh22@gmail.com<br>
+        Ahmedabad, Gujarat, India
+    </p>
+
+    <footer>
+        &copy; 2026 Khushi Thakkar | Portfolio
+    </footer>
 </body>
 </html>
